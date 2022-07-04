@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <link rel="stylesheet" href="index.css">
+    <title>F1 - The Home of Formula 1</title>
+    <script src="index.js"></script>
+    <ul class="nav justify-content-end bg-white px-5">
+        <li class="nav-item">
+            <a class="nav-link active m-2 text-dark" aria-current="page" href="#">AUTHENTICS</a>
+        </li>
+        <li class="nav-item m-2">
+            <a class="nav-link text-dark" href="#">STORE</a>
+        </li>
+        <li class="nav-item m-2 ">
+            <a class="nav-link text-dark" href="#">TICKETS</a>
+        </li>
+        <li class="nav-item m-2 ">
+            <a class="nav-link addb text-dark" href="#">HOSPITALITY</a>
+        </li>
+        <button type="button" class="btn btn-dark m-2 border-start-5"><a class="signIn" href="./form.html">SIGN
+                IN</a></button>
+        <button id="hovering" type="button" class="btn btn-danger m-2">SUBSCRIBE</button></a>
+    </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+        <div class="container-fluid">
+            <img src="./f1_logo.svg" id="img">
+            <div class="btn-group p-3 btn-grp" role="group" aria-label="Button group with nested dropdown">
+                <a href="https://www.formula1.com/en/racing/2022.html"><button type="button" class="btn btn-danger mx-4 Hovering">Schedule</button></a>
+                <div class="btn-group" role="group">
+                    <button id="btnGroupDrop1" type="button" class="btn btn-danger dropdown-toggle mx-4 Hovering"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Teams
+                    </button>
+                    <ul class="dropdown-menu drpdwnT" aria-labelledby="btnGroupDrop1">
+                        <div class="row">
+                            <li class="col"><a class="dropdown-item" href="#">Mercedes AMG Petronas F1 Team</a></li>
+                            <li class="col"><a class="dropdown-item" href="#">Oracle Red Bull Racing</a></li>
+                        </div>
+                        <div class="row">
+                            <li class="col"><a class="dropdown-item" href="#">Scuderia Ferrari</a></li>
+                            <li class="col"><a class="dropdown-item" href="#">McLaren Racing Limited</a></li>
+                        </div>
+                        <div class="row">
+                            <li class="col"><a class="dropdown-item" href="#">BWT Alpine F1 Team</a></li>
+                            <li class="col"><a class="dropdown-item" href="#">Scuderia AlphaTauri</a></li>
+                            <div class="row">
+                                <li class="col"><a class="dropdown-item" href="#">Aston Martin Cognizant Formula 1
+                                        Team</a></li>
+                                <li class="col"><a class="dropdown-item" href="#">Alfa Romeo F1 Team ORLEN</a></li>
+                            </div>
+                            <div class="row">
+                                <li class="col"><a class="dropdown-item" href="#">Haas F1 Team</a></li>
+                                <li class="col"><a class="dropdown-item" href="#">Williams Racing</a></li>
+                            </div>
+                    </ul>
+                </div>
+                <div class="btn-group" role="group">
+                    <button id="btnGroupDrop1" type="button" class="btn btn-danger dropdown-toggle mx-4 Hovering"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Drivers
+                    </button>
+                    <ul class="dropdown-menu drpdwn" aria-labelledby="btnGroupDrop1">
+                        <div class="row">
+                            <li class="col"><a class="dropdown-item " href="#">Lewis Hamilton</a></li>
+                            <li class="col"><a class="dropdown-item" href="#">George Russel</a></li>
+                            <li class="col"><a class="dropdown-item" href="#">Max Verstappen</a></li>
+                            <li class="col"><a class="dropdown-item" href="#">Charles Leclerc</a></li>
+                        </div>
+                        <div class="row">
+                            <li class="col"><a class="dropdown-item" href="#">Carlos Sainz</a></li>
+                            <li class="col"><a class="dropdown-item" href="#">Lando Norris</a></li>
+                            <li class="col"><a class="dropdown-item" href="#">Sergio Perez</a></li>
+                            <li class="col"><a class="dropdown-item" href="#">Sebastian Vettel</a></li>
+                        </div>
+                        <div class="row">
+                            <li class="col"><a class="dropdown-item" href="#">Fernando Alonso</a></li>
+                            <li class="col"><a class="dropdown-item" href="#">Valtteri Bottas</a></li>
+                            <li class="col"><a class="dropdown-item" href="#">Daniel Ricciardo</a></li>
+                            <li class="col"><a class="dropdown-item" href="#">Mick Schumacher</a></li>
+                        </div>
+                        <div class="row">
+                            <li class="col"><a class="dropdown-item" href="#">Kevin Magnussen</a></li>
+                            <li class="col"><a class="dropdown-item" href="#">Pierre Gasly</a></li>
+                            <li class="col"><a class="dropdown-item" href="#">Alex Albon</a></li>
+                            <li class="col"><a class="dropdown-item" href="#">Zhou Guanyu</a></li>
+                        </div>
+                        <div class="row">
+                            <li class="col"><a class="dropdown-item" href="#">Estaban Ocon</a></li>
+                            <li class="col"><a class="dropdown-item" href="#">Lance Stroll</a></li>
+                            <li class="col"><a class="dropdown-item" href="#">Yuki Tsunoda</a></li>
+                            <li class="col"><a class="dropdown-item" href="#">Nicolas Latifi</a></li>
+                        </div>
+                    </ul>
+                </div>
+                <div class="btn-group" role="group">
+                    <button id="btnGroupDrop1" type="button" class="btn btn-danger dropdown-toggle mx-4 Hovering"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Standings
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                        <li><a class="dropdown-item" href="#">2022-23 Drivers' Standings</a></li>
+                        <li><a class="dropdown-item" href="#">2022-23 Constructors' Standings</a></li>
+                        <li><a class="dropdown-item" href="#">2021-22 Drivers' Standings</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </nav>
+    <div id="card">
+        <div class="card d-flex flex-row">
+            <div class="card text-light mainCard bg-black mt-lg-4" id="lh">
+                <div class="card-body">
+                    <h5 class="card-title">FORMULA 1 WORLD CHAMPIONS</h5>
+                    <p class="card-text">Click here to see the All
+                        Time Greats of Formula 1, the pinnacle of Motorsport.</p>
+                </div>
+                <img src="./images.jpg" class="card-img-bottom" alt="...">
+            </div>
+            <div class="card text-light mainCard bg-black mt-lg-4" id="h2">
+                <div class="card-body">
+                    <h5 class="card-title">IN MEMORY OF AYRTON SENNA</h5>
+                    <p class="card-text">Click here to see one of the best
+                        Drivers in the World with 3 F1 Drivers' Championships.
+                    </p>
+                </div>
+                <img src="./senna.jpg" class="card-img-bottom senna" alt="...">
+            </div>
+        </div>
+        <div class="card bg-dark text-black about my-5" id="animateAbout">
+            <img src="./MT_Brake-Fundamentals.png" class="card-img" alt="...">
+            <div class="card-img-overlay">
+                <h5 class="card-title">WOKING OF A FORMULA 1 CAR</h5>
+                <p class="card-text"> <a href="https://f1chronicle.com/how-does-a-formula-1-car-work/" id="About"
+                        target="_blank">Click here to fully learn about a Formula 1 car.</a></p>
+            </div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>

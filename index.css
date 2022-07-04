@@ -1,0 +1,116 @@
+body {
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.addb {
+    border-left: 5px;
+    border-right: 5px;
+    border: 2px;
+    padding-left: 5px;
+    padding-right: 20px;
+    border-right: rgb(170, 170, 170) 2px solid;
+}
+
+.drpdwnT{
+    width: 45vw;
+}
+
+.drpdwn{
+    width: 55vw;
+    height: fit-content;
+}
+
+.btn-grp{
+    margin-right: 50vw;
+}
+
+#hovering:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#lh:hover {
+    height: 75vh !important;
+    width: 50vw !important;
+}
+
+#h2:hover {
+    height: 70vh !important;
+    width: 45vw !important;
+
+}
+
+#img {
+    height: 8vh;
+}
+
+.Hovering:hover {
+    background-color: black;
+}
+
+.mainCard {
+    height: 60vh;
+    width: 35vw;
+    border-top: 10px solid #DC3545;
+    border-right: 10px solid #DC3545;
+    border-radius: 20px;
+}
+
+.card-body {
+    margin-top: 20px;
+    font-style: bold;
+}
+
+.senna {
+    height: 40vh;
+}
+
+.card {
+    background-color: black;
+    justify-content: space-around;
+}
+
+.carousel {
+    margin-top: 20vh;
+}
+
+.about {
+    height: 110vh;
+}
+
+.card-text {
+    text-decoration: none;
+}
+
+#About {
+    color: black;
+    text-decoration: none;
+}
+
+.signIn {
+    color: white;
+    text-decoration: none;
+}
+
+.signIn:hover{
+    color: white;
+}
+
+#card {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
